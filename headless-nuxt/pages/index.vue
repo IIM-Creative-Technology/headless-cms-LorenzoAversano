@@ -1,4 +1,3 @@
-
 <template>
   <section>
     <div
@@ -7,7 +6,7 @@
     >
       <div
         class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="background-color: #bbd0ff"
+        style="background-color: #fcfffc"
       >
         <span
           
@@ -18,7 +17,7 @@
         <div class="items-center flex flex-wrap">
           <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
             <div>
-              <h1 class="text-dark font-semibold text-5xl">
+              <h1 class="text-dark font-semibold text-7xl	">
                 Portfolio de Lorenzo
               </h1>
               <p class="mt-4 text-lg text-dark-300">
@@ -55,7 +54,7 @@
             :key="projet.slug"
           >
             <div
-              class="max-w-xs h-96 flex flex-col items-center m-6 p-6 drop-shadow-2xl bg-[#ffd6ff] transform hover:scale-105 transition duration-300 ease-in-out"
+              class="max-w-xs h-96 flex flex-col rounded-2xl	items-center m-6 p-6 drop-shadow-2xl bg-[#ffffff] transform hover:scale-105 transition duration-300 ease-in-out"
             >
             <div class="font-bold text-xl mb-2">{{ projet.name }}</div>
               <p class="text-gray-700 text-base">
@@ -63,7 +62,7 @@
               </p>
               <div class="px-6 pt-4 pb-2 flex flex-row">
                 <div v-for="(technologie, index) in projet.technologies" :key="index" class="pt-4 pb-2">
-                  <span class="inline-block bg-[#b8c0ff] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{technologie.name}}</span>
+                  <span class="inline-block bg-[#f3d8c7] rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#{{technologie.name}}</span>
                 </div>
               </div>
             </div>
@@ -109,19 +108,19 @@ onMounted(async () => {
 <style scoped>
 
 .background-color {
-  background-color:#bbd0ff;
+  background-color:#fcfffc;
 }
 
 .button-filter {
   font-size: 18px;
   padding: 10px 20px;
-  background: #b8c0ff;
+  background: #f3d8c7;
   text-transform: capitalize;
   margin-right: 10px;
   border-radius: 10px;
 }
 .button-filter:hover {
-  background: #ffd6ffc4;
+  background: #f3d8c7c4;
   transition: 0.3s;
   color: white;
 }
