@@ -8,10 +8,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/image-edge": "^1.0.0-27954023.4cee565",
     "@nuxtjs/strapi": "^1.8.1",
-    "@types/node": "^18.14.1",
-    "markdown-it": "^13.0.1",
-    "nuxt": "^3.2.2"
+    "@nuxtjs/tailwindcss": "^6.4.1",
+    "@types/node": "^18.14.2",
+    "autoprefixer": "^10.4.13",
+    "nuxt": "^3.2.3",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7"
   }
 }
