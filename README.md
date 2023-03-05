@@ -6,7 +6,7 @@ Ce projet est un portfolio simple qui présente quelques projets. Le CMS utilis�
 
 ## Installation
 
-1. Clonez le dépôt sur votre machine locale.
+1. Clonez le projet en local.
 
 2. Accédez au répertoire du projet.
 
@@ -24,7 +24,7 @@ Ce projet est un portfolio simple qui présente quelques projets. Le CMS utilis�
 
 Le site Web a les fonctionnalités suivantes :
 
-* Une page d'accueil qui présente le portfolio de l'utilisateur.
+* Une page d'accueil qui présente le portfolio.
 
 * Une page de détails pour chaque projet qui montre plus d'informations sur le projet.
 
