@@ -1,5 +1,5 @@
 <template>
-<section v-if="projet" class="relative py-20 bg-[#bbd0ff]">
+<section v-if="projet" class="relative py-28 bg-[#bbd0ff]">
   <div class="container mx-auto px-4">
     <div class="items-center flex flex-wrap flex-col">
       <div class="w-full md:w-4/12 ml-auto mr-auto px-4">

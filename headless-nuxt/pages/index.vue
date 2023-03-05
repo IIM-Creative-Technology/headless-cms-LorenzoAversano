@@ -32,7 +32,7 @@
 
     </div>
     <section class="background-color">
-      <div v-if="types" class=" mb-10 flex justify-center">
+      <div v-if="types" class=" mb-10 flex justify-center flex-wrap">
         <button
           @click="filterProjects('all')"
           class="button-filter"
@@ -55,7 +55,7 @@
             :key="projet.slug"
           >
             <div
-              class="max-w-xs flex flex-col items-center m-6 p-6 drop-shadow-2xl bg-[#ffd6ff] transform hover:scale-105 transition duration-300 ease-in-out"
+              class="max-w-xs h-96 flex flex-col items-center m-6 p-6 drop-shadow-2xl bg-[#ffd6ff] transform hover:scale-105 transition duration-300 ease-in-out"
             >
             <div class="font-bold text-xl mb-2">{{ projet.name }}</div>
               <p class="text-gray-700 text-base">
